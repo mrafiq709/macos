@@ -1,6 +1,9 @@
 # macos
 cmd command
 ```
+brew upgrade
+brew reinstall php
+brew services restart php
 brew services list
 brew unlink php
 brew link php@7.3
