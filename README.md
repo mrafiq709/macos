@@ -28,7 +28,8 @@ ls /Library/Java/JavaVirtualMachines/
 ```
 Open bash profile
 ```
-sudo nano ~/.bash_profile
+new mac: sudo nano ~/.zshrc
+old mac: sudo nano ~/.bash_profile
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
 ```
