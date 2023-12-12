@@ -21,3 +21,14 @@ Then to load mysql now:
 Or, if you don't want/need launchctl, you can just run:
     mysql.server start
 ```
+# Multiple JAVA version
+See installed JAVA versions
+```
+ls /Library/Java/JavaVirtualMachines/
+```
+Open bash profile
+```
+sudo nano ~/.bash_profile
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
+```
