@@ -28,6 +28,7 @@ ls /Library/Java/JavaVirtualMachines/
 ```
 Open bash profile
 ```
+check which shell: echo $SHELL
 new mac: sudo nano ~/.zshrc
 old mac: sudo nano ~/.bash_profile
 
