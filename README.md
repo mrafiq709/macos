@@ -6,6 +6,7 @@ brew reinstall php
 brew services restart php
 brew services list
 brew unlink php
+sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.php.plist
 brew link php@7.3
 
 mysql.server stop
