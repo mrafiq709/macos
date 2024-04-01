@@ -13,6 +13,7 @@ brew unlink php@8.3 && brew link php@7.3
 mysql.server stop
 brew services start mysql
 brew services restart mysql
+sudo chmod -R 777 /usr/local/var/mysql
 
 brew services cleanup
 
