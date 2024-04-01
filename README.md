@@ -8,6 +8,7 @@ brew services list
 brew unlink php
 sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.php.plist
 brew link php@7.3
+brew unlink php@8.3 && brew link php@7.3
 
 mysql.server stop
 brew services start mysql
